@@ -1,0 +1,8 @@
+potential dataset to use: 
+  1. https://www.kaggle.com/datasets/shivamb/netflix-shows - netflix dataset
+  2. https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset - hr analytics dataset
+  3. https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries - DS job salaries
+  4. https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset - houses in india price prediction
+  5. https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps - google play store apps, could be difficult 
+  6. https://www.kaggle.com/datasets/datascientistanna/customers-dataset - ecommerce dataset 
+  7. https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset - top 250 movies from imdb dataset
