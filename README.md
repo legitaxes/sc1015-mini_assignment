@@ -1,1 +1,3 @@
-# sc1015-mini_assignment
+## Mini Assignment 
+
+### Question we are exploring: < . . . >
