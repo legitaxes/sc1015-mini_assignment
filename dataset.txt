@@ -6,3 +6,4 @@ potential dataset to use:
   5. https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps - google play store apps, could be difficult 
   6. https://www.kaggle.com/datasets/datascientistanna/customers-dataset - ecommerce dataset 
   7. https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset - top 250 movies from imdb dataset
+  8. https://www.kaggle.com/datasets/ahsan81/job-placement-dataset - job placement dataset ("monitor past data and use machine learning to predict whether the candidate gets placed ?")
