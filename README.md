@@ -2,7 +2,7 @@
 
 
 ### Grading Scheme:
-[image](https://cdn.discordapp.com/attachments/1065968545671958530/1083018055724052520/image.png)
+![alt text](https://cdn.discordapp.com/attachments/1065968545671958530/1083018055724052520/image.png "grading scheme of overall project")
 
 ### Guidelines:
 1. What is an "interesting problem" based on the dataset?
