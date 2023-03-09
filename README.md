@@ -10,6 +10,7 @@
 7. Random Forest Regressor
    
 ### Things to do:
+**For Data Cleaning**
 1. Create new variable to group `salary_in_usd`
 2. Transform `experience_level` to categorical
 3. Split `company_location` to continent level and group them in categorically
@@ -19,6 +20,8 @@
 7. Think about how to deal with the outlier for `salary_in_usd`
    - Ommit outliers
    - create category to overcome outliers
+
+**Modelling**
 
 
 
