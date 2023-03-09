@@ -1,5 +1,15 @@
 ## Mini Assignment - Done By Jia Qi, Hui Ling & Denis
 
+### Features to use:
+1. Hyperparameters search (gridsearch)
+2. DecisionTree 
+3. K-fold Cross-validation
+4. Regression
+5. Classfication
+6. Support Vector Machine
+7. Random Forest Regressor
+   
+
 
 ### Grading Scheme:
 ![alt text](https://cdn.discordapp.com/attachments/1065968545671958530/1083018055724052520/image.png "grading scheme of overall project")
