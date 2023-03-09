@@ -9,6 +9,17 @@
 6. Support Vector Machine
 7. Random Forest Regressor
    
+### Things to do:
+1. Create new variable to group `salary_in_usd`
+2. Transform `experience_level` to categorical
+3. Split `company_location` to continent level and group them in categorically
+4. Transform `company_size` to categorical
+5. Transform `remote_ratio` to categorical
+6. Transform `employment_type` to categorical
+7. Think about how to deal with the outlier for `salary_in_usd`
+   - Ommit outliers
+   - create category to overcome outliers
+
 
 
 ### Grading Scheme:
@@ -41,7 +52,12 @@
     - **The idea for the presentation will be a complete video, explaining all the steps from your motivation to your data-driven solution to the problem**
 
 ---
-### Question we are exploring: < . . . >
+### Question we are exploring: 
+
+1. Which feature is correlated to salary (numerical)
+2. Which feature is the most significant in deciding the range of the salary? (categorical)
+3. Salary in datascience compared to average in the world and also in singapore
+4. Compare salaries between each `job_title`
 
 ---
 ### Individual Contributions:
