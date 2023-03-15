@@ -9,17 +9,18 @@
 6. Support Vector Machine
 7. Random Forest Regressor
    
-### Things to do:
+### Task Sheet:
 **For Data Cleaning**
-1. Create new variable to group `salary_in_usd`
-2. Transform `experience_level` to categorical
+1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
+2. Transform `experience_level` to categorical [completed, done by @legitaxes]
 3. Split `company_location` to continent level and group them in categorically
-4. Transform `company_size` to categorical
-5. Transform `remote_ratio` to categorical
-6. Transform `employment_type` to categorical
+4. Transform `company_size` to categorical [completed, done by @legitaxes]
+5. Transform `remote_ratio` to categorical [completed, done by @legitaxes]
+6. Transform `employment_type` to categorical [completed, done by @legitaxes]
 7. Think about how to deal with the outlier for `salary_in_usd`
-   - Ommit outliers
-   - create category to overcome outliers
+   - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
+   - Ommit outliers *(not yet decided)*
+   - Create category to overcome outliers [done by @XaviaThe2nd]
 
 **Modelling**
 
