@@ -1,22 +1,13 @@
 ## Mini Assignment - Done By Jia Qi, Hui Ling & Denis
 
-### Features to use:
-
    
 ### Task Sheet:
-**For Data Cleaning**
-1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
-2. Transform `experience_level` to categorical [completed, done by @legitaxes]
-3. Split `company_location` to continent level and group them in categorically [assigned @vvhuiling]
-4. Transform `company_size` to categorical [completed, done by @legitaxes]
-5. Transform `remote_ratio` to categorical [completed, done by @legitaxes]
-6. Transform `employment_type` to categorical [completed, done by @legitaxes]
-7. Think about how to deal with the outlier for `salary_in_usd`
-   - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
+**Data Cleaning/ Transformation/ Creating Features**
+1. Split `company_location` to continent level and group them in categorically [assigned @vvhuiling]
+2. Think about how to deal with the outlier for `salary_in_usd`
    - Ommit outliers *(not yet decided)*
-   - Create category to overcome outliers [done by @XaviaThe2nd]
-8. Create a new feature that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [assigned @vvhuiling]
-9. One hot encoding (transform categorical values into different forms)
+3. Create a new feature that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [assigned @vvhuiling]
+4. Look into One hot encoding (transform categorical values into different forms) and maybe implement them to categorical variables
 
 **EDA Required Based on Our Problem**
 1. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [assigned @vvhuiling]
@@ -32,12 +23,12 @@
 **Modelling / Machine Learning Algorithms + Doing Something New**
 1. Use one hot encoding on one model and compare it against using the same model
 2. Hyperparameters search (gridsearch)
-3. DecisionTree 
+3. DecisionTree
 4. K-fold Cross-validation
 5. Regression
 6. Classfication
 7. Support Vector Machine
-8. Random Forest Regressor 
+8. Random Forest Regressor
 
 
 **Data Driven Insights & Recommendation**
@@ -84,7 +75,7 @@
 ---
 ### Individual Contributions:
 
-**Data Cleaning**
+**Data Cleaning/ Transformation/ Creating Features**
 1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
 2. Transform `experience_level` to categorical [completed, done by @legitaxes]
 3. Transform `company_size` to categorical [completed, done by @legitaxes]
