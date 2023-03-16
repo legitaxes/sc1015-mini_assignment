@@ -1,19 +1,13 @@
 ## Mini Assignment - Done By Jia Qi, Hui Ling & Denis
 
 ### Features to use:
-1. Hyperparameters search (gridsearch)
-2. DecisionTree 
-3. K-fold Cross-validation
-4. Regression
-5. Classfication
-6. Support Vector Machine
-7. Random Forest Regressor
+
    
 ### Task Sheet:
 **For Data Cleaning**
 1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
 2. Transform `experience_level` to categorical [completed, done by @legitaxes]
-3. Split `company_location` to continent level and group them in categorically
+3. Split `company_location` to continent level and group them in categorically [assigned @vvhuiling]
 4. Transform `company_size` to categorical [completed, done by @legitaxes]
 5. Transform `remote_ratio` to categorical [completed, done by @legitaxes]
 6. Transform `employment_type` to categorical [completed, done by @legitaxes]
@@ -21,11 +15,36 @@
    - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
    - Ommit outliers *(not yet decided)*
    - Create category to overcome outliers [done by @XaviaThe2nd]
+8. Create a new feature that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [assigned @vvhuiling]
+9. One hot encoding (transform categorical values into different forms)
 
-**Modelling**
+**EDA Required Based on Our Problem**
+1. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [assigned @vvhuiling]
+2. Explore whether people working in big company (`company_size`) earns more (or less) [assigned @XaviaThe2nd]
+3. Explore which job title allows you to work at home (`remote_ratio`, explore variables that affects `remote_ratio`) [assigned @XaviaThe2nd]
+4. Whether the `employee_residence` & `company_locations` affects `remote_ratio` [assigned @XaviaThe2nd]
+5. Look at whether `employment_type` affects other variables [assigned @legitaxes]
+6. People working in different being paid in different currency (look at average of EUR paid in usd and USD) affects `salary_in_usd`. [assigned @legitaxes]
+7. Ultimately look at whether `remote_ratio` & other variables that affects salary [assigned @legitaxes]
 
 
 
+**Modelling / Machine Learning Algorithms + Doing Something New**
+1. Use one hot encoding on one model and compare it against using the same model
+2. Hyperparameters search (gridsearch)
+3. DecisionTree 
+4. K-fold Cross-validation
+5. Regression
+6. Classfication
+7. Support Vector Machine
+8. Random Forest Regressor 
+
+
+**Data Driven Insights & Recommendation**
+1. 
+
+
+---
 ### Grading Scheme:
 ![alt text](https://cdn.discordapp.com/attachments/1065968545671958530/1083018055724052520/image.png "grading scheme of overall project")
 
@@ -57,15 +76,25 @@
 
 ---
 ### Question we are exploring: 
-
-1. Which feature is correlated to salary (numerical)
+1. Which feature is correlated to salary (numerical)? and does the salary increase or decrease based on the feature?
 2. Which feature is the most significant in deciding the range of the salary? (categorical)
-3. Salary in datascience compared to average in the world and also in singapore
-4. Compare salaries between each `job_title`
+3. Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 
+4. Salary in datascience compared to average in the world and also in singapore (not priority)
 
 ---
 ### Individual Contributions:
-contributions go here
+
+**Data Cleaning**
+1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
+2. Transform `experience_level` to categorical [completed, done by @legitaxes]
+3. Transform `company_size` to categorical [completed, done by @legitaxes]
+4. Transform `remote_ratio` to categorical [completed, done by @legitaxes]
+5. Transform `employment_type` to categorical [completed, done by @legitaxes]
+6. Think about how to deal with the outlier for `salary_in_usd`
+   - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
+   - Ommit outliers *(not yet decided)*
+   - Create category to overcome outliers [done by @XaviaThe2nd]
+
 
 ---
 ### References
