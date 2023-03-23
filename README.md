@@ -1,6 +1,14 @@
 ## Mini Assignment - Done By Jia Qi, Hui Ling & Denis
 
-   
+### Questions we are exploring: 
+1. Which feature is correlated to salary (numerical)? and does the salary increase or decrease based on the feature?
+2. Which feature is the most significant in deciding the range of the salary? (categorical)
+3. Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 
+4. Salary in datascience compared to average in the world and also in singapore (not priority)
+5. What is the average monthly salary in US dollars for Junior, Mid-level and Senior Developers, who work remotely more than 50% of the time, and are employed full-time in companies with less than 500 employees, and located in the same country as the employee's residence? (To solve this problem, we would need to filter the dataset based on the given criteria, calculate the average salary in US dollars for the filtered employees, and then present the result)
+
+
+---
 ### Task Sheet:
 **Data Cleaning/ Transformation/ Creating Features**
 1. Split `company_location` to continent level and group them in categorically [assigned @vvhuiling]
@@ -15,7 +23,7 @@
 3. Explore which job title allows you to work at home (`remote_ratio`, explore variables that affects `remote_ratio`) [assigned @XaviaThe2nd]
 4. Whether the `employee_residence` & `company_locations` affects `remote_ratio` [assigned @XaviaThe2nd]
 5. Look at whether `employment_type` affects other variables [assigned @legitaxes]
-6. People working in different being paid in different currency (look at average of EUR paid in usd and USD) affects `salary_in_usd`. [assigned @legitaxes]
+6. Look at whether people working in different country being paid in different currency (look at average of EUR paid in usd and USD) affects `salary_in_usd`. [assigned @legitaxes]
 7. Ultimately look at whether `remote_ratio` & other variables that affects salary [assigned @legitaxes]
 
 
@@ -64,13 +72,6 @@
     - submit a 10 minute video as your final presentation.
     - format it as a PPT/PDF/Google Slides presentation on the problem you chose, along with some snippets of your code from Jupyter Notebook/Google Colab, and relevant visualizations
     - **The idea for the presentation will be a complete video, explaining all the steps from your motivation to your data-driven solution to the problem**
-
----
-### Question we are exploring: 
-1. Which feature is correlated to salary (numerical)? and does the salary increase or decrease based on the feature?
-2. Which feature is the most significant in deciding the range of the salary? (categorical)
-3. Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 
-4. Salary in datascience compared to average in the world and also in singapore (not priority)
 
 ---
 ### Individual Contributions:
