@@ -5,20 +5,14 @@
 2. Which feature is the most significant in deciding the range of the salary? (categorical)
 3. Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 
 4. Salary in datascience compared to average in the world and also in singapore (not priority)
-5. What is the average monthly salary in US dollars for Junior, Mid-level and Senior Developers, who work remotely more than 50% of the time, and are employed full-time in companies with less than 500 employees, and located in the same country as the employee's residence? (To solve this problem, we would need to filter the dataset based on the given criteria, calculate the average salary in US dollars for the filtered employees, and then present the result)
+5. What is the predicted monthly salary in US dollars for Junior, Mid-level and Senior Developers, who work remotely more than 50% of the time, and located in the same country as the employee's residence? (To solve this problem, we would need to filter the dataset based on the given criteria, calculate the average salary in US dollars for the filtered employees, and then present the result)
 
 
 ---
 ### Task Sheet:
-**Data Cleaning/ Transformation/ Creating Features**
-1. Split `company_location` to continent level and group them in categorically [assigned @vvhuiling]
-2. Think about how to deal with the outlier for `salary_in_usd`
-   - Ommit outliers *(not yet decided)*
-3. Create a new feature that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [assigned @vvhuiling]
-4. Look into One hot encoding (transform categorical values into different forms) and maybe implement them to categorical variables
 
 **EDA Required Based on Our Problem**
-1. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [assigned @vvhuiling]
+1. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [assigned @vvhuiling] 
 2. Explore whether people working in big company (`company_size`) earns more (or less) [assigned @XaviaThe2nd]
 3. Explore which job title allows you to work at home (`remote_ratio`, explore variables that affects `remote_ratio`) [assigned @XaviaThe2nd]
 4. Whether the `employee_residence` & `company_locations` affects `remote_ratio` [assigned @XaviaThe2nd]
@@ -29,14 +23,13 @@
 
 
 **Modelling / Machine Learning Algorithms + Doing Something New**
-1. Use one hot encoding on one model and compare it against using the same model
-2. Hyperparameters search (gridsearch)
-3. DecisionTree
-4. K-fold Cross-validation
-5. Regression
-6. Classfication
-7. Support Vector Machine
-8. Random Forest Regressor
+1. Hyperparameters search (gridsearch)
+2. K-fold Cross-validation
+3. Random Forest Regressor
+4. Use one hot encoding on linear regression model and compare it against using logistics regression model 
+5. Logistic Regression (categorical)
+6. Support Vector Machine
+7. DecisionTree Regressor
 
 
 **Data Driven Insights & Recommendation**
@@ -84,8 +77,14 @@
 5. Transform `employment_type` to categorical [completed, done by @legitaxes]
 6. Think about how to deal with the outlier for `salary_in_usd`
    - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
-   - Ommit outliers *(not yet decided)*
+   - Outliers are labeled, can easily exclude them if we want to
    - Create category to overcome outliers [done by @XaviaThe2nd]
+7. Create a new feature called `job_type` & `domain` that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [done by @vvhuiling]
+8. Split `company_location` into `continent` and group them in categorically [done by @vvhuiling]
+
+
+**EDA Required Based on Our Problem**
+1. Explore the various domain and management of `job_title`. for example: NLP, ETL, manager, etc. [done by @vvhuiling]
 
 
 ---
