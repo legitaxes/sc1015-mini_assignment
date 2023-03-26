@@ -25,11 +25,11 @@
 **Modelling / Machine Learning Algorithms + Doing Something New**
 1. Hyperparameters search (gridsearch)
 2. K-fold Cross-validation
-3. Random Forest Regressor
-4. Use one hot encoding on linear regression model and compare it against using logistics regression model 
-5. Logistic Regression (categorical)
-6. Support Vector Machine
-7. DecisionTree Regressor
+3. Decision Tree Regressor
+4. Random Forest Regressor
+5. Use one hot encoding on linear regression model and compare it against using logistics regression model 
+6. Logistic Regression (categorical)
+7. Support Vector Machine
 
 
 **Data Driven Insights & Recommendation**
