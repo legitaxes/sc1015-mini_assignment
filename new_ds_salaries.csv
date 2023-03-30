@@ -481,7 +481,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,MI,FT,Data Scientist,120000,USD,120000,US,2,US,M,low-mid,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Machine Learning Engineer,120000,USD,120000,AE,2,AE,S,low-mid,2,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
 2022,SE,FT,Machine Learning Engineer,65000,USD,65000,AE,2,AE,S,low,2,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
-2022,EX,FT,Data Engineer,324000,USD,324000,US,2,US,M,,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
+2022,EX,FT,Data Engineer,324000,USD,324000,US,2,US,M,outlier,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,EX,FT,Data Engineer,216000,USD,216000,US,2,US,M,mid-high,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Engineer,210000,USD,210000,US,2,US,M,mid-high,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Machine Learning Engineer,120000,USD,120000,US,2,US,M,low-mid,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Machine Learning,2,2
