@@ -12,23 +12,17 @@
 ### Task Sheet:
 
 **EDA Required Based on Our Problem**
-1. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [assigned @vvhuiling] 
-2. Explore whether people working in big company (`company_size`) earns more (or less) [assigned @XaviaThe2nd]
-3. Explore which job title allows you to work at home (`remote_ratio`, explore variables that affects `remote_ratio`) [assigned @XaviaThe2nd]
-4. Whether the `employee_residence` & `company_locations` affects `remote_ratio` [assigned @XaviaThe2nd]
-5. Look at whether `employment_type` affects other variables [assigned @legitaxes]
-6. Look at whether people working in different country being paid in different currency (look at average of EUR paid in usd and USD) affects `salary_in_usd`. [assigned @legitaxes]
-7. Ultimately look at whether `remote_ratio` & other variables that affects salary [assigned @legitaxes]
+    **DONE**
 
 
 
 **Modelling / Machine Learning Algorithms + Doing Something New**
-1. Hyperparameters search (gridsearch)
-2. K-fold Cross-validation
-3. Decision Tree Regressor
-4. Random Forest Regressor
-5. Use one hot encoding on linear regression model and compare it against using logistics regression model 
-6. Logistic Regression (categorical)
+1. Hyperparameters search (gridsearch) 
+2. K-fold Cross-validation 
+3. Decision Tree Regressor (done by @legitaxes)
+4. Random Forest Regressor (done by @legitaxes)
+5. Use one hot encoding on Linear Regression model and compare it against using logistics regression model (done by @vvhuiling)
+6. Logistic Regression (categorical) (done by @XaviaThe2nd)
 7. Support Vector Machine
 
 
@@ -41,10 +35,7 @@
 ![alt text](https://cdn.discordapp.com/attachments/1065968545671958530/1083018055724052520/image.png "grading scheme of overall project")
 
 ### Guidelines:
-1. What is an "interesting problem" based on the dataset?
-
-
-2. What do you mean by "data preparation and cleaning"?
+1. What do you mean by "data preparation and cleaning"?
     - Preparing means cleaning the data, resizing/reshaping the data, removing outliers (if necessary), balancing imbalanced classes (if necessary), grouping the rows/columns as necessary, etc. This is an important part of any DS/ML project. You may also have to join/merge multiple data sources, plus extract/scrape data from various online sources to work on your problem.
 
 
@@ -70,11 +61,11 @@
 ### Individual Contributions:
 
 **Data Cleaning/ Transformation/ Creating Features**
-1. Create new variable to group `salary_in_usd` [completed, done by @XaviaThe2nd]
-2. Transform `experience_level` to categorical [completed, done by @legitaxes]
-3. Transform `company_size` to categorical [completed, done by @legitaxes]
-4. Transform `remote_ratio` to categorical [completed, done by @legitaxes]
-5. Transform `employment_type` to categorical [completed, done by @legitaxes]
+1. Create new variable to group `salary_in_usd` [done by @XaviaThe2nd]
+2. Transform `experience_level` to categorical [done by @legitaxes]
+3. Transform `company_size` to categorical [done by @legitaxes]
+4. Transform `remote_ratio` to categorical [done by @legitaxes]
+5. Transform `employment_type` to categorical [done by @legitaxes]
 6. Think about how to deal with the outlier for `salary_in_usd`
    - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
    - Outliers are labeled, can easily exclude them if we want to
@@ -85,7 +76,19 @@
 
 **EDA Required Based on Our Problem**
 1. Explore the various domain and management of `job_title`. for example: NLP, ETL, manager, etc. [done by @vvhuiling]
+2. Create various box plots based on the other variables (done by @XaviaThe2nd & @vvhuiling)
+3. Explore the domain and management of `job_title`. for example: NLP, ETL, manager, etc. [done by @vvhuiling] 
+4. Explore whether people working in big company (`company_size`) earns more (or less) [done by @XaviaThe2nd]
+5. Explore which job title allows you to work at home (`remote_ratio`, explore variables that affects `remote_ratio`) [done by @XaviaThe2nd]
+6. Whether the `employee_residence` & `company_locations` affects `remote_ratio` [done by @XaviaThe2nd]
+7. Look at whether `employment_type` affects other variables [done by @vvhuiling]
+8. Look at whether people working in different country being paid in different currency (look at average of EUR paid in usd and USD) affects `salary_in_usd`. [done by @vvhuiling]
+9. Look at whether `remote_ratio` & other variables that affects salary [done by @vvhuiling]
 
+
+**MISCELLANEOUS**
+1. Organized EDA file and added markdown comments to explain the code done (done @vvhuiling)
+2. 
 
 ---
 ### References
