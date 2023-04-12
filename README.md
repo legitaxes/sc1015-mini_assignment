@@ -15,19 +15,8 @@
     **DONE**
 
 
-
-**Modelling / Machine Learning Algorithms + Doing Something New**
-1. Hyperparameters search (gridsearch) 
-2. K-fold Cross-validation 
-3. Decision Tree Regressor (done by @legitaxes)
-4. Random Forest Regressor (done by @legitaxes)
-5. Use one hot encoding on Linear Regression model and compare it against using logistics regression model (done by @vvhuiling)
-6. Logistic Regression (categorical) (done by @XaviaThe2nd)
-7. Support Vector Machine
-
-
 **Data Driven Insights & Recommendation**
-1. 
+1. To be confirmed
 
 
 ---
@@ -68,7 +57,7 @@
 5. Transform `employment_type` to categorical [done by @legitaxes]
 6. Think about how to deal with the outlier for `salary_in_usd`
    - Outliers are labeled with 'outlier' in new feature called `salary_outliers` & `salary_group` [done by @XaviaThe2nd]
-   - Outliers are labeled, can easily exclude them if we want to
+   - Outliers are labeled, can easily exclude them if we want to [done by @XaviaThe2nd]
    - Create category to overcome outliers [done by @XaviaThe2nd]
 7. Create a new feature called `job_type` & `domain` that categorizes `job_title` into different positions (i.e manager(lead, manager), engineer(developer), consultant (analyst, researcher, data scientist, specialist)) [done by @vvhuiling]
 8. Split `company_location` into `continent` and group them in categorically [done by @vvhuiling]
@@ -86,13 +75,33 @@
 9. Look at whether `remote_ratio` & other variables that affects salary [done by @vvhuiling]
 
 
+**Modelling / Machine Learning Algorithms + Doing Something New**
+1. Hyperparameters search (gridsearch) (individual model has gridsearch)
+2. K-fold Cross-validation (individual model has gridsearch)
+3. Decision Tree Regressor (done by @legitaxes)
+4. Random Forest Regressor (done by @legitaxes)
+5. Use one hot encoding on Linear Regression model and compare it against using logistics regression model (done by @vvhuiling)
+6. Logistic Regression (categorical) (done by @XaviaThe2nd)
+7. Support Vector Machine (done by @legitaxes)
+
+
 **MISCELLANEOUS**
 1. Organized EDA file and added markdown comments to explain the code done (done @vvhuiling)
-2. 
+
 
 ---
 ### References
-online/offline references go here
+1. Brownlee, J. (2020, August 17). Ordinal and one-hot encodings for Categorical Data. MachineLearningMastery.com. Retrieved April 12, 2023, from https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/#:~:text=For%20example%2C%20in%20the%20case,be%20calculated%20using%20linear%20algebra. 
+
+2. Brownlee, J. (2020, August 2). A gentle introduction to k-fold cross-validation. MachineLearningMastery.com. Retrieved April 12, 2023, from https://machinelearningmastery.com/k-fold-cross-validation/ 
+
+3. GeeksforGeeks. (2023, March 2). Random Forest regression in python. GeeksforGeeks. Retrieved April 12, 2023, from https://www.geeksforgeeks.org/random-forest-regression-in-python/ 
+
+4. Linear SVC Machine learning SVM example with Python. Python programming tutorials. (n.d.). Retrieved April 12, 2023, from https://pythonprogramming.net/linear-svc-example-scikit-learn-svm-python/ 
+
+5. Malik, F. (2022, March 7). What is grid search? Medium. Retrieved April 12, 2023, from https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0a#:~:text=Grid%20search%20is%20a%20tuning,us%20time%2C%20effort%20and%20resources. 
+
+6. Mondal, S. (2023, February 14). Regression analysis: Beginners comprehensive guide (updated 2023). Analytics Vidhya. Retrieved April 12, 2023, from https://www.analyticsvidhya.com/blog/2020/12/beginners-take-how-logistic-regression-is-related-to-linear-regression/#:~:text=The%20Differences%20between%20Linear%20Regression,Logistic%20regression%20provides%20discreet%20output.  
 
 ---
 
