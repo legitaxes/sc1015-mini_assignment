@@ -40,6 +40,7 @@ We also attempted to transform the salary data into a binary classifier (labelle
 
 
 <u>**Conclusion:**</u>
+
 In conclusion, we found that the feature that had the highest correlation with salary was the number of years of experience (`experience_level`). And the best model we should use to predict `salary_in_usd` is `Decision Tree Regressor` with the highest R^2 value score. 
 We also found out whether the salary range was most influenced by job title and industry that the people who are working in and the average salary in the data science field is about 80% higher than the average salary in Singapore.
 
