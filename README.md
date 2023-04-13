@@ -49,7 +49,6 @@ We also found out whether the salary range was most influenced by job title and 
 2. Which feature is the most significant in deciding the range of the salary? (categorical)
 3. Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 
 4. Salary in datascience compared to average in the world and also in singapore (not priority)
-5. What is the predicted monthly salary in US dollars for Junior, Mid-level and Senior Developers, who work remotely more than 50% of the time, and located in the same country as the employee's residence? (To solve this problem, we would need to filter the dataset based on the given criteria, calculate the average salary in US dollars for the filtered employees, and then present the result)
 
 
 ---
