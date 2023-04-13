@@ -28,11 +28,11 @@ We used `Random Forest Regressor` as our base model to compare the rest of the m
 
 The models we tested to be used to compare are as follows (each with `k-fold cross validation` and `gridsearch` done to further improve the accuracy):
 
-- ==1. Linear Regression==
+   1. Linear Regression
 
-- ==2. Decision Tree Regressor==
+   2. Decision Tree Regressor
 
-- ==3. Support Vector Machine==
+   3. Support Vector Machine
 
 <u>**Other Prediction Models:**</u>
 
