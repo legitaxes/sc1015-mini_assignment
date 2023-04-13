@@ -4,7 +4,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2020,SE,FT,Big Data Engineer,85000,GBP,109024,GB,1,GB,M,low-mid,1,2,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2020,MI,FT,Product Data Analyst,20000,USD,20000,HN,0,HN,S,low,0,1,0,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2020,SE,FT,Machine Learning Engineer,150000,USD,150000,US,1,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Machine Learning,2,2
-2020,EN,FT,Data Analyst,72000,USD,72000,US,2,US,L,low-mid,1,0,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
+2020,EN,FT,Data Analyst,72000,USD,72000,US,2,US,L,low-mid,0,0,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2020,SE,FT,Lead Data Scientist,190000,USD,190000,US,2,US,S,mid,1,2,0,1,NORTH AMERICA,NORTH AMERICA,Head,Data science,2,2
 2020,MI,FT,Data Scientist,11000000,HUF,35735,HU,1,HU,L,low,0,1,2,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2020,MI,FT,Business Data Analyst,135000,USD,135000,US,2,US,L,mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
@@ -30,8 +30,8 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2020,EN,CT,Business Data Analyst,100000,USD,100000,US,2,US,L,low-mid,1,0,2,2,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2020,SE,FT,Machine Learning Manager,157000,CAD,117104,CA,1,CA,L,low-mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Manager,Management,2,2
 2020,MI,FT,Data Engineering Manager,51999,EUR,59303,DE,2,DE,S,low,0,1,0,1,EUROPE,EUROPE,Manager,Management,0,0
-2020,EN,FT,Big Data Engineer,70000,USD,70000,US,2,US,L,low-mid,1,0,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
-2020,SE,FT,Data Scientist,60000,EUR,68428,GR,2,US,L,low-mid,1,2,2,1,NORTH AMERICA,EUROPE,Scientist,Data science,0,2
+2020,EN,FT,Big Data Engineer,70000,USD,70000,US,2,US,L,low-mid,0,0,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
+2020,SE,FT,Data Scientist,60000,EUR,68428,GR,2,US,L,low-mid,0,2,2,1,NORTH AMERICA,EUROPE,Scientist,Data science,0,2
 2020,MI,FT,Research Scientist,450000,USD,450000,US,0,US,M,outlier,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Unknown,2,2
 2020,MI,FT,Data Analyst,41000,EUR,46759,FR,1,FR,L,low,0,1,2,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2020,MI,FT,Data Engineer,65000,EUR,74130,AT,1,AT,L,low-mid,1,1,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
@@ -48,7 +48,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2020,MI,FT,Data Scientist,60000,GBP,76958,GB,2,GB,S,low-mid,1,1,0,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2020,SE,FT,Data Engineer,188000,USD,188000,US,2,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2020,MI,FT,Data Scientist,105000,USD,105000,US,2,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2020,MI,FT,Data Engineer,61500,EUR,70139,FR,1,FR,L,low-mid,1,1,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2020,MI,FT,Data Engineer,61500,EUR,70139,FR,1,FR,L,low-mid,0,1,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2020,EN,FT,Data Analyst,450000,INR,6072,IN,0,IN,S,low,0,0,0,1,ASIA,ASIA,Analyst,Data science,1,1
 2020,EN,FT,Data Analyst,91000,USD,91000,US,2,US,L,low-mid,1,0,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2020,EN,FT,AI Scientist,300000,DKK,45896,DK,1,DK,S,low,0,0,0,1,EUROPE,EUROPE,Scientist,AI,0,0
@@ -97,7 +97,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,MI,FT,Cloud Data Engineer,120000,SGD,89294,SG,1,SG,L,low-mid,1,1,2,1,ASIA,ASIA,Engineer,Data science,1,1
 2021,EN,PT,AI Scientist,12000,USD,12000,BR,2,US,S,low,0,0,0,0,NORTH AMERICA,SOUTH AMERICA,Scientist,AI,4,2
 2021,MI,FT,Financial Data Analyst,450000,USD,450000,US,2,US,L,outlier,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
-2021,EN,FT,Computer Vision Software Engineer,70000,USD,70000,US,2,US,M,low-mid,1,0,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Computer Vision,2,2
+2021,EN,FT,Computer Vision Software Engineer,70000,USD,70000,US,2,US,M,low-mid,0,0,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Computer Vision,2,2
 2021,MI,FT,Computer Vision Software Engineer,81000,EUR,95746,DE,2,US,S,low-mid,1,1,0,1,NORTH AMERICA,EUROPE,Engineer,Computer Vision,0,2
 2021,MI,FT,Data Analyst,75000,USD,75000,US,0,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2021,SE,FT,Data Engineer,150000,USD,150000,US,2,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
@@ -186,7 +186,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,MI,FL,Machine Learning Scientist,12000,USD,12000,PK,1,PK,M,low,0,1,1,3,ASIA,ASIA,Scientist,Machine Learning,1,1
 2021,MI,FT,Data Engineer,4000,USD,4000,IR,2,IR,M,low,0,1,1,1,ASIA,ASIA,Engineer,Data science,1,1
 2021,SE,FT,Data Analytics Engineer,50000,USD,50000,VN,2,GB,M,low,0,2,1,1,EUROPE,ASIA,Engineer,Data science,1,0
-2021,EX,FT,Data Science Consultant,59000,EUR,69741,FR,2,ES,S,low-mid,1,3,0,1,EUROPE,EUROPE,Consultant,Data science,0,0
+2021,EX,FT,Data Science Consultant,59000,EUR,69741,FR,2,ES,S,low-mid,0,3,0,1,EUROPE,EUROPE,Consultant,Data science,0,0
 2021,SE,FT,Data Engineer,65000,EUR,76833,RO,1,GB,S,low-mid,1,2,0,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2021,MI,FT,Machine Learning Engineer,74000,USD,74000,JP,1,JP,S,low-mid,1,1,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
 2021,SE,FT,Data Science Manager,152000,USD,152000,US,2,FR,L,mid,1,2,2,1,EUROPE,NORTH AMERICA,Manager,Management,2,0
@@ -211,7 +211,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,SE,FT,Data Analytics Manager,120000,USD,120000,US,0,US,L,low-mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Manager,Management,2,2
 2021,MI,FT,Machine Learning Engineer,21000,EUR,24823,SI,1,SI,L,low,0,1,2,1,EUROPE,EUROPE,Engineer,Machine Learning,0,0
 2021,MI,FT,Research Scientist,48000,EUR,56738,FR,1,FR,S,low,0,1,0,1,EUROPE,EUROPE,Scientist,Unknown,0,0
-2021,MI,FT,Data Engineer,48000,GBP,66022,HK,1,GB,S,low,1,1,0,1,EUROPE,SOUTH AMERICA,Engineer,Data science,4,0
+2021,MI,FT,Data Engineer,48000,GBP,66022,HK,1,GB,S,low,0,1,0,1,EUROPE,SOUTH AMERICA,Engineer,Data science,4,0
 2021,EN,FT,Big Data Engineer,435000,INR,5882,IN,0,CH,L,low,0,0,2,1,EUROPE,ASIA,Engineer,Data science,1,0
 2021,EN,FT,Machine Learning Engineer,21000,EUR,24823,DE,1,DE,M,low,0,0,1,1,EUROPE,EUROPE,Engineer,Machine Learning,0,0
 2021,SE,FT,Principal Data Engineer,185000,USD,185000,US,2,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
@@ -228,7 +228,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,SE,FT,Data Scientist,110000,CAD,87738,CA,2,CA,S,low-mid,1,2,0,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2021,MI,FT,Data Scientist,75000,EUR,88654,DE,1,DE,L,low-mid,1,1,2,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2021,SE,FT,Data Scientist,135000,USD,135000,US,0,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2021,SE,FT,Data Analyst,90000,CAD,71786,CA,2,CA,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
+2021,SE,FT,Data Analyst,90000,CAD,71786,CA,2,CA,M,low-mid,0,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2021,EN,FT,Big Data Engineer,1200000,INR,16228,IN,2,IN,L,low,0,0,2,1,ASIA,ASIA,Engineer,Data science,1,1
 2021,SE,FT,ML Engineer,256000,USD,256000,US,2,US,S,mid-high,1,2,0,1,NORTH AMERICA,NORTH AMERICA,Engineer,Machine Learning,2,2
 2021,SE,FT,Director of Data Engineering,200000,USD,200000,US,2,US,L,mid-high,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Head,Data science,2,2
@@ -244,7 +244,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,MI,FT,Data Engineer,110000,USD,110000,US,2,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2021,SE,FT,Data Scientist,165000,USD,165000,US,2,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2021,EN,FT,AI Scientist,1335000,INR,18053,IN,2,AS,S,low,0,0,0,1,NORTH AMERICA,ASIA,Scientist,AI,1,2
-2021,MI,FT,Data Engineer,52500,GBP,72212,GB,1,GB,L,low-mid,1,1,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2021,MI,FT,Data Engineer,52500,GBP,72212,GB,1,GB,L,low-mid,0,1,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2021,EN,FT,Data Scientist,31000,EUR,36643,FR,1,FR,L,low,0,0,2,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2021,MI,FT,Data Engineer,108000,TRY,12103,TR,0,TR,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2021,SE,FT,Data Engineer,70000,GBP,96282,GB,1,GB,L,low-mid,1,2,2,1,EUROPE,EUROPE,Engineer,Data science,0,0
@@ -262,13 +262,13 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,MI,FT,Data Scientist,130000,USD,130000,US,1,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2021,SE,FT,Data Analyst,54000,EUR,63831,DE,1,DE,L,low,0,2,2,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2021,MI,FT,Data Scientist,1250000,INR,16904,IN,2,IN,S,low,0,1,0,1,ASIA,ASIA,Scientist,Data science,1,1
-2021,SE,FT,Machine Learning Engineer,4900000,INR,66265,IN,0,IN,L,low,1,2,2,1,ASIA,ASIA,Engineer,Machine Learning,1,1
+2021,SE,FT,Machine Learning Engineer,4900000,INR,66265,IN,0,IN,L,low,0,2,2,1,ASIA,ASIA,Engineer,Machine Learning,1,1
 2021,MI,FT,Data Scientist,21600,EUR,25532,RS,2,DE,S,low,0,1,0,1,EUROPE,SOUTH AMERICA,Scientist,Data science,4,0
 2021,SE,FT,Lead Data Engineer,160000,USD,160000,PR,1,US,S,mid,1,2,0,1,NORTH AMERICA,SOUTH AMERICA,Head,Data science,4,2
 2021,MI,FT,Data Engineer,93150,USD,93150,US,0,US,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2021,MI,FT,Data Engineer,111775,USD,111775,US,0,US,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2021,MI,FT,Data Engineer,250000,TRY,28016,TR,2,TR,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
-2021,EN,FT,Data Engineer,55000,EUR,65013,DE,1,DE,M,low,1,0,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2021,EN,FT,Data Engineer,55000,EUR,65013,DE,1,DE,M,low,0,0,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2021,EN,FT,Data Engineer,72500,USD,72500,US,2,US,L,low-mid,1,0,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2021,SE,FT,Computer Vision Engineer,102000,BRL,18907,BR,0,BR,M,low,0,2,1,1,SOUTH AMERICA,SOUTH AMERICA,Engineer,Computer Vision,4,4
 2021,EN,FT,Data Science Consultant,65000,EUR,76833,DE,0,DE,L,low-mid,1,0,2,1,EUROPE,EUROPE,Consultant,Data science,0,0
@@ -281,9 +281,9 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,EN,FT,Business Data Analyst,50000,EUR,59102,LU,2,LU,L,low,0,0,2,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2021,MI,FT,Data Engineer,112000,USD,112000,US,2,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2021,EN,FT,Research Scientist,100000,USD,100000,JE,0,CN,L,low-mid,1,0,2,1,ASIA,SOUTH AMERICA,Scientist,Unknown,4,1
-2021,MI,PT,Data Engineer,59000,EUR,69741,NL,2,NL,L,low-mid,1,1,2,0,EUROPE,EUROPE,Engineer,Data science,0,0
+2021,MI,PT,Data Engineer,59000,EUR,69741,NL,2,NL,L,low-mid,0,1,2,0,EUROPE,EUROPE,Engineer,Data science,0,0
 2021,SE,CT,Staff Data Scientist,105000,USD,105000,US,2,US,M,low-mid,1,2,1,2,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2021,MI,FT,Research Scientist,69999,USD,69999,CZ,1,CZ,L,low-mid,1,1,2,1,EUROPE,EUROPE,Scientist,Unknown,0,0
+2021,MI,FT,Research Scientist,69999,USD,69999,CZ,1,CZ,L,low-mid,0,1,2,1,EUROPE,EUROPE,Scientist,Unknown,0,0
 2021,SE,FT,Data Science Manager,7000000,INR,94665,IN,1,IN,L,low-mid,1,2,2,1,ASIA,ASIA,Manager,Management,1,1
 2021,SE,FT,Head of Data,87000,EUR,102839,SI,2,SI,L,low-mid,1,2,2,1,EUROPE,EUROPE,Head,Data science,0,0
 2021,MI,FT,Data Scientist,109000,USD,109000,US,1,US,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
@@ -310,7 +310,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,MI,FT,Data Analyst,126500,USD,126500,US,0,US,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,EX,FT,Data Engineer,242000,USD,242000,US,2,US,M,mid-high,1,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,EX,FT,Data Engineer,200000,USD,200000,US,2,US,M,mid-high,1,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
-2022,MI,FT,Data Scientist,50000,GBP,65438,GB,0,GB,M,low,1,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
+2022,MI,FT,Data Scientist,50000,GBP,65438,GB,0,GB,M,low,0,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2022,MI,FT,Data Scientist,30000,GBP,39263,GB,0,GB,M,low,0,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2022,MI,FT,Data Engineer,60000,GBP,78526,GB,0,GB,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,40000,GBP,52351,GB,0,GB,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
@@ -354,7 +354,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Scientist,167000,USD,167000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,123000,USD,123000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Engineer,60000,GBP,78526,GB,0,GB,M,low-mid,1,2,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
-2022,SE,FT,Data Engineer,50000,GBP,65438,GB,0,GB,M,low,1,2,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2022,SE,FT,Data Engineer,50000,GBP,65438,GB,0,GB,M,low,0,2,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,SE,FT,Data Scientist,150000,USD,150000,US,0,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,211500,USD,211500,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Architect,192400,USD,192400,CA,2,CA,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
@@ -409,9 +409,9 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Engineer,183600,USD,183600,US,2,US,L,mid,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,MI,FT,Data Analyst,40000,GBP,52351,GB,2,GB,M,low,0,1,1,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2022,SE,FT,Data Scientist,180000,USD,180000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2022,MI,FT,Data Scientist,55000,GBP,71982,GB,0,GB,M,low-mid,1,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
+2022,MI,FT,Data Scientist,55000,GBP,71982,GB,0,GB,M,low-mid,0,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2022,MI,FT,Data Scientist,35000,GBP,45807,GB,0,GB,M,low,0,1,1,1,EUROPE,EUROPE,Scientist,Data science,0,0
-2022,MI,FT,Data Engineer,60000,EUR,65949,GR,2,GR,M,low,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2022,MI,FT,Data Engineer,60000,EUR,65949,GR,2,GR,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,45000,EUR,49461,GR,2,GR,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,60000,GBP,78526,GB,2,GB,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,45000,GBP,58894,GB,2,GB,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
@@ -435,7 +435,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,MI,FT,Data Engineer,70000,EUR,76940,ES,2,ES,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,80000,GBP,104702,GB,2,GB,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,70000,GBP,91614,GB,2,GB,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
-2022,MI,FT,Data Engineer,60000,EUR,65949,ES,2,ES,M,low,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2022,MI,FT,Data Engineer,60000,EUR,65949,ES,2,ES,M,low,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Engineer,80000,EUR,87932,GR,2,GR,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,SE,FT,Machine Learning Engineer,189650,USD,189650,US,0,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Machine Learning,2,2
 2022,SE,FT,Machine Learning Engineer,164996,USD,164996,US,0,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Machine Learning,2,2
@@ -480,7 +480,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,MI,FT,Data Scientist,200000,USD,200000,US,2,US,M,mid-high,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,MI,FT,Data Scientist,120000,USD,120000,US,2,US,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Machine Learning Engineer,120000,USD,120000,AE,2,AE,S,low-mid,1,2,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
-2022,SE,FT,Machine Learning Engineer,65000,USD,65000,AE,2,AE,S,low,1,2,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
+2022,SE,FT,Machine Learning Engineer,65000,USD,65000,AE,2,AE,S,low,0,2,0,1,ASIA,ASIA,Engineer,Machine Learning,1,1
 2022,EX,FT,Data Engineer,324000,USD,324000,US,2,US,M,outlier,1,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,EX,FT,Data Engineer,216000,USD,216000,US,2,US,M,mid-high,1,3,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Engineer,210000,USD,210000,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
@@ -506,20 +506,20 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Engineer,115000,USD,115000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,EN,FT,Data Scientist,120000,AUD,86703,AU,1,AU,M,low-mid,1,0,1,1,AUSTRALIA,AUSTRALIA,Scientist,Data science,3,3
 2022,MI,FT,Applied Machine Learning Scientist,75000,USD,75000,BO,2,US,L,low-mid,1,1,2,1,NORTH AMERICA,SOUTH AMERICA,Scientist,Machine Learning,4,2
-2022,MI,FT,Research Scientist,59000,EUR,64849,AT,0,AT,L,low,1,1,2,1,EUROPE,EUROPE,Scientist,Unknown,0,0
+2022,MI,FT,Research Scientist,59000,EUR,64849,AT,0,AT,L,low,0,1,2,1,EUROPE,EUROPE,Scientist,Unknown,0,0
 2022,EN,FT,Research Scientist,120000,USD,120000,US,2,US,L,low-mid,1,0,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Unknown,2,2
 2022,MI,FT,Applied Data Scientist,157000,USD,157000,US,2,US,L,mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,EN,FT,Computer Vision Software Engineer,150000,USD,150000,AU,2,AU,S,mid,1,0,0,1,AUSTRALIA,AUSTRALIA,Engineer,Computer Vision,3,3
-2022,MI,FT,Business Data Analyst,90000,CAD,70912,CA,1,CA,L,low-mid,1,1,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
-2022,EN,FT,Data Engineer,65000,USD,65000,US,2,US,S,low,1,0,0,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
-2022,SE,FT,Machine Learning Engineer,65000,EUR,71444,IE,2,IE,S,low-mid,1,2,0,1,EUROPE,EUROPE,Engineer,Machine Learning,0,0
+2022,MI,FT,Business Data Analyst,90000,CAD,70912,CA,1,CA,L,low-mid,0,1,2,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
+2022,EN,FT,Data Engineer,65000,USD,65000,US,2,US,S,low,0,0,0,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
+2022,SE,FT,Machine Learning Engineer,65000,EUR,71444,IE,2,IE,S,low-mid,0,2,0,1,EUROPE,EUROPE,Engineer,Machine Learning,0,0
 2022,EN,FT,Data Analytics Engineer,20000,USD,20000,PK,0,PK,M,low,0,0,1,1,ASIA,ASIA,Engineer,Data science,1,1
 2022,MI,FT,Data Scientist,48000,USD,48000,RU,2,US,S,low,0,1,0,1,NORTH AMERICA,EUROPE,Scientist,Data science,0,2
 2022,SE,FT,Data Science Manager,152500,USD,152500,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Manager,Management,2,2
-2022,MI,FT,Data Engineer,62000,EUR,68147,FR,2,FR,M,low-mid,1,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
+2022,MI,FT,Data Engineer,62000,EUR,68147,FR,2,FR,M,low-mid,0,1,1,1,EUROPE,EUROPE,Engineer,Data science,0,0
 2022,MI,FT,Data Scientist,115000,CHF,122346,CH,0,CH,L,low-mid,1,1,2,1,EUROPE,EUROPE,Scientist,Data science,0,0
 2022,SE,FT,Applied Data Scientist,380000,USD,380000,US,2,US,L,outlier,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2022,MI,FT,Data Scientist,88000,CAD,69336,CA,2,CA,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
+2022,MI,FT,Data Scientist,88000,CAD,69336,CA,2,CA,M,low-mid,0,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,EN,FT,Computer Vision Engineer,10000,USD,10000,PT,2,LU,M,low,0,0,1,1,EUROPE,EUROPE,Engineer,Computer Vision,0,0
 2022,MI,FT,Data Analyst,20000,USD,20000,GR,2,GR,S,low,0,1,0,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2022,SE,FT,Data Analytics Lead,405000,USD,405000,US,2,US,L,outlier,1,2,2,1,NORTH AMERICA,NORTH AMERICA,Head,Data science,2,2
@@ -556,7 +556,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Engineer,200100,USD,200100,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Engineer,160000,USD,160000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Engineer,145000,USD,145000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
-2022,SE,FT,Data Engineer,70500,USD,70500,US,0,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
+2022,SE,FT,Data Engineer,70500,USD,70500,US,0,US,M,low-mid,0,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Scientist,205300,USD,205300,US,0,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,140400,USD,140400,US,0,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Analytics Engineer,205300,USD,205300,US,0,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Unknown,2,2
@@ -566,13 +566,13 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Analyst,116150,USD,116150,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,SE,FT,Data Engineer,54000,USD,54000,US,0,US,M,low,0,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Analyst,170000,USD,170000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
-2022,MI,FT,Data Analyst,50000,GBP,65438,GB,0,GB,M,low,1,1,1,1,EUROPE,EUROPE,Analyst,Data science,0,0
+2022,MI,FT,Data Analyst,50000,GBP,65438,GB,0,GB,M,low,0,1,1,1,EUROPE,EUROPE,Analyst,Data science,0,0
 2022,SE,FT,Data Analyst,80000,USD,80000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,SE,FT,Data Scientist,140000,USD,140000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,210000,USD,210000,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,140000,USD,140000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Analyst,100000,USD,100000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
-2022,SE,FT,Data Analyst,69000,USD,69000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
+2022,SE,FT,Data Analyst,69000,USD,69000,US,2,US,M,low-mid,0,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,SE,FT,Data Scientist,210000,USD,210000,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,140000,USD,140000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,SE,FT,Data Scientist,210000,USD,210000,US,2,US,M,mid-high,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
@@ -599,7 +599,7 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2022,SE,FT,Data Analyst,170000,USD,170000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,MI,FT,Data Scientist,160000,USD,160000,US,2,US,M,mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
 2022,MI,FT,Data Scientist,130000,USD,130000,US,2,US,M,low-mid,1,1,1,1,NORTH AMERICA,NORTH AMERICA,Scientist,Data science,2,2
-2022,EN,FT,Data Analyst,67000,USD,67000,CA,0,CA,M,low-mid,1,0,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
+2022,EN,FT,Data Analyst,67000,USD,67000,CA,0,CA,M,low-mid,0,0,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,EN,FT,Data Analyst,52000,USD,52000,CA,0,CA,M,low,0,0,1,1,NORTH AMERICA,NORTH AMERICA,Analyst,Data science,2,2
 2022,SE,FT,Data Engineer,154000,USD,154000,US,2,US,M,mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
 2022,SE,FT,Data Engineer,126000,USD,126000,US,2,US,M,low-mid,1,2,1,1,NORTH AMERICA,NORTH AMERICA,Engineer,Data science,2,2
