@@ -1,22 +1,34 @@
-## Mini Assignment - Done By Jia Qi, Hui Ling & Denis
+
+## SC1015 Mini Assignment - Done By Jia Qi, Hui Ling & Denis
 
 Predicting Salary of Data Science Job Salaries 🧑‍💼🧑‍💻💵
 
 ---
 
-### 🪞Order of Reading Each File: 
+### Order of Reading Each File: 
 
-1. 🧹 Data-Cleaning-and-Transformation 
+1. 🧹 [Data-Cleaning-and-Transformation](https://github.com/legitaxes/sc1015-mini_assignment/blob/main/Data-Cleaning-and-Transformation.ipynb)
 
-2. 📊 EDA-of-Dataset 
+2. 📊 [EDA-of-Dataset](https://github.com/legitaxes/sc1015-mini_assignment/blob/main/EDA-of-Dataset.ipynb) 
 
-3. 🌲Base Model (Random Forest Regressor) 
+3. 🌲 [Base Model (Random Forest Regressor)](https://github.com/legitaxes/sc1015-mini_assignment/blob/main/Base%20Model%20(Random%20Forest%20Regressor).ipynb)
 
-4. 🔮Prediction Models 
+4. 🔮 [Prediction Models](https://github.com/legitaxes/sc1015-mini_assignment/blob/main/Prediction%20Models.ipynb) 
 
-5. 📈Logistic Regression 
+5. 📈 [Logistic Regression](https://github.com/legitaxes/sc1015-mini_assignment/blob/main/Logistic%20Regression.ipynb) 
 
 ---
+## ❓ Questions We are Exploring:
+
+| No. 	|   Questions 🤔❓                                                                                                                                                         	|
+|-----	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 1.  	| Which feature is correlated to salary (numerical)? and does the salary increase or decrease based on the feature?                                                   	|
+| 2.  	| Which feature is the most significant in deciding the range of the salary? (categorical)                                                                            	|
+| 3.  	| Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 	|
+| 4.  	| What well does the salary in Data Science jobs fare compared to the average in Singapore?                                                                           	|
+| 5.  	| Which model performs the best compared to the base model (Random Forest Regressor)?                                                                                 	|
+---
+
 ## 📃 Report :
 
 ### ⭐ **Introduction:** 
@@ -35,7 +47,7 @@ We aim to answer which feature in the dataset is correlated to `salary_in_usd`, 
 | 6.  	| `job_type`           	| Classify `job_title` into different job types. <br>i.e. "Head", "Manager", "Developer", "Analyst", "Scientist", "Consultant", "Engineer"                                             	|
 
 
-We would also like to explore which feature is the most significant in deciding `salary_in_usd` that would benefit data science students when searching for a job. Finally, we compare the salary in data science to the average salary in Singapore to determine whether Data Science job salaries are being paid higher or lower than the average Singapore income. (Average salary per annum referenced from [here](https://www.worlddata.info/average-income.php)).
+We would also like to explore which feature is the most significant in deciding `salary_in_usd` that would benefit data science students when searching for a job. Finally, we compare the salary in data science to the average salary in Singapore to determine whether Data Science job salaries are being paid higher or lower than the average Singapore income.
 
 
 ### 🔎 **Data Analysis:** 
@@ -54,12 +66,11 @@ Below is a table of a summary of what feature was transformed:
 We have also analyzed what are the distributions of the variables are like to see where majority of our data are for each variable. For example, `salary_group` majority of the datapoints are in the low-mid range. 
 
 Exploratory Data Analysis techniques such as plotting various box plots and heatmaps of `salary_in_usd` to other variables to see the salary are at for each data category of the variable we are comparing to. 
-Then based on the EDA we will be able to see which variable we should include or exclude from our model.
 
 
 ### 🔮 **Prediction Models:**
 
-We used `Random Forest Regressor` as our base model to compare to the rest of the models done in this project. All of the models  we did were all further improved using `k-fold cross validation` and `gridsearch`. The improvement of the model can be seen by the accuracy increase or whether the R^2 value is more realistic.
+We used `Random Forest Regressor` as our base model to compare to the rest of the models done in this project. All of the models  we did were all further improved using `k-fold cross validation` and `gridsearch`. The improvement of the model can be seen by the accuracy increase or whether training and testing R^2 value are closer to each other.
 
 The models we have implemented to compare to the base model are as follows:
 
@@ -72,7 +83,7 @@ The models we have implemented to compare to the base model are as follows:
 
 ### 🎑 **Bonus: Logistic Regression Model**
 
-We also attempted to predict whether the `salary_in_usd` will be higher or lower than Singapore's average salary. We started by transforming `salary_in_usd` into a variable called `compare_avr_salary` which is a binary classifier that indicates if a salary is`above average` or `below average`. We then created a logistic regression model to predict whether `salary_in_usd` will be above or below average. The model accuracy was also further improved by using `k-fold cross validation` and `gridsearch` (to select best hyperparameters for the model).
+We also attempted to predict whether the `salary_in_usd` will be higher or lower than Singapore's average salary. We started by transforming `salary_in_usd` into a variable called `compare_avr_salary` which is a binary classifier that indicates if a salary is`above average` or `below average`. We then created a logistic regression model to predict whether `salary_in_usd` will be above or below average. The model accuracy was also further improved by using `k-fold cross validation` and `gridsearch`.
 
 ### 📝 <u>**Conclusion:**</u>
 
@@ -80,24 +91,13 @@ In conclusion, we found that the feature that had the highest correlation with s
 
 We also found out whether the salary range was most influenced by job title and industry that the people who are working in and the average salary in the data science field is about 80% higher than the average salary in Singapore.
 
-
-### ❓Questions we are exploring:
-
-| No. 	|  🤔❓Questions                                                                                                                                                          	|
-|-----	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| 1.  	| Which feature is correlated to salary (numerical)? and does the salary increase or decrease based on the feature?                                                   	|
-| 2.  	| Which feature is the most significant in deciding the range of the salary? (categorical)                                                                            	|
-| 3.  	| Explore general summary of whether data science students, what are some qualities that would benefit them if they pay attention to when they are looking for a job. 	|
-| 4.  	| What well does the salary in Data Science jobs fare compared to the average in Singapore?                                                                           	|
-| 5.  	| Which model performs the best compared to the base model (Random Forest Regressor)?                                                                                 	|
 ---
 
-  
 
-## Individual Contributions:
+## 📌 Individual Contributions: 
 
 
-| No. 	| Data Cleaning / Transformation / Creating Features                                                                                                                                                                        	| Individual Contribution 	|
+| No. 	| Data Cleaning / Transformation / Creating Features                                                                                                                                                                        	| Done by 	|
 |-----	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------	|
 | 1.  	| Create new variable to group `salary_in_usd`                                                                                                                                                                              	| Denis                   	|
 | 2.  	| Transform `experience_level` to categorical variable                                                                                                                                                                      	| Jia Qi                  	|
@@ -114,7 +114,7 @@ We also found out whether the salary range was most influenced by job title and 
   ---
 
 
-| <b>No.</b> 	| <b>EDA Required Based on our Problem</b>                                                                                                                  	| <b>Individual Contribution</b> 	|
+| <b>No.</b> 	| <b>EDA Required Based on our Problem</b>                                                                                                                  	| <b>Done by</b> 	|
 |------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------	|
 | 1.         	| Explore the various domain and management of `job_title`. for example: NLP, ETL, manager, etc.                                                            	| Hui Ling                       	|
 | 2.         	| Create various box plots on `salary_in_usd` based on the other variables                                                                                  	| Hui Ling & Denis               	|
@@ -129,7 +129,7 @@ We also found out whether the salary range was most influenced by job title and 
   ---
   
 
-| <b>No.</b> 	| <b>Modelling / Machine Learning Algorithms + Doing Something New</b> 	| <b>K-Fold Cross Validation</b> 	| <b>Gridsearch Hyperparameters</b> 	| <b>Individual Contribution</b> 	|
+| <b>No.</b> 	| <b>Modelling / Machine Learning Algorithms + Doing Something New</b> 	| <b>K-Fold Cross Validation</b> 	| <b>Gridsearch Hyperparameters</b> 	| <b>Done by</b> 	|
 |------------	|----------------------------------------------------------------------	|:--------------------------------:	|:-----------------------------------:	|--------------------------------	|
 | 1.         	| Random Forest Regressor                                              	| ✅                              	| ✅                                 	| Jia Qi                         	|
 | 2.         	| Decision Tree Regressor                                              	| ✅                              	| ✅                                 	| Jia Qi                         	|
@@ -140,7 +140,7 @@ We also found out whether the salary range was most influenced by job title and 
   
 ---
 
-| <b>No.</b> 	| <b>MISCELLANEOUS</b>                                                       	| <b>Individual Contribution</b> 	|
+| <b>No.</b> 	| <b>MISCELLANEOUS</b>                                                       	| <b>Done by</b> 	|
 |------------	|----------------------------------------------------------------------------	|--------------------------------	|
 | 1.         	| Organized EDA File and added markdown comments to explain code done in EDA 📙	| Hui Ling                       	|
 | 2.         	| Github readme Writeup 📝                                                    	| Jia Qi                         	|
