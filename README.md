@@ -1,5 +1,5 @@
 
-## SC1015 Mini Assignment - Done By Jia Qi, Hui Ling & Denis
+## SC1015 Mini Assignment - Done By Jia Qi, Hui Ling & Denis [B135 - Team 6]
 
 Predicting Salary of Data Science Job Salaries 🧑‍💼🧑‍💻💵
 
